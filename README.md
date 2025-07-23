@@ -1,52 +1,77 @@
-# MERN Stack Capstone Project
+# 🌍 Foodverse
 
-This assignment focuses on designing, developing, and deploying a comprehensive full-stack MERN application that showcases all the skills you've learned throughout the course.
+**Foodverse** is a global recipe-sharing platform built with the MERN stack. It celebrates culinary diversity by organizing recipes by continent, region, and theme — with a focus on accessibility, modular design, and user experience.
 
-## Assignment Overview
 
-You will:
-1. Plan and design a full-stack MERN application
-2. Develop a robust backend with MongoDB, Express.js, and Node.js
-3. Create an interactive frontend with React.js
-4. Implement testing across the entire application
-5. Deploy the application to production
+🔗 Live site: [foodverseonline.netlify.app]
+---
 
-## Getting Started
+## 🧰 Tech Stack
 
-1. Accept the GitHub Classroom assignment
-2. Clone the repository to your local machine
-3. Follow the instructions in the `Week8-Assignment.md` file
-4. Plan, develop, and deploy your capstone project
+- **Frontend**: React, React Router, Modular CSS
+- **Backend**: Express.js, MongoDB, Mongoose
+- **Deployment**: Netlify (frontend), Render/Railway (backend)
+- **Database**: MongoDB Atlas
 
-## Files Included
+---
 
-- `Week8-Assignment.md`: Detailed assignment instructions
+## ✨ Features
 
-## Requirements
+- 🌍 Continent-based recipe browsing (Africa, Asia, Europe, Americas, Oceania)
+- 📖 Detailed recipe pages with ingredients, instructions, and metadata
+- 🧩 Modular components for scalability and reuse
+- 🎨 Accessible and responsive design with semantic HTML
+- 🔌 RESTful API for full CRUD operations
+- 🧪 Seed script to populate MongoDB with global recipes
 
-- Node.js (v18 or higher)
-- MongoDB (local installation or Atlas account)
-- npm or yarn
-- Git and GitHub account
-- Accounts on deployment platforms (Render/Vercel/Netlify/etc.)
+---
 
-## Project Ideas
+## 📦 Installation
 
-The `Week8-Assignment.md` file includes several project ideas, but you're encouraged to develop your own idea that demonstrates your skills and interests.
+```bash
+# Clone the repo
+git clone https://github.com/PLP-MERN-Stack-Development/week-8-capstone_-KatlehoChi.git
+cd foodverse
 
-## Submission
+# Install backend
+cd server
+npm install
 
-Your project will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
+# Install frontend
+cd ../client
+npm install
 
-1. Commit and push your code regularly
-2. Include comprehensive documentation
-3. Deploy your application and add the live URL to your README.md
-4. Create a video demonstration and include the link in your README.md
+## 🚀 Running Locally
+# Start backend
+cd server
+npm run dev
 
-## Resources
+# Start frontend
+cd ../client
+npm start
 
-- [MongoDB Documentation](https://docs.mongodb.com/)
-- [Express.js Documentation](https://expressjs.com/)
-- [React Documentation](https://react.dev/)
-- [Node.js Documentation](https://nodejs.org/en/docs/)
-- [GitHub Classroom Guide](https://docs.github.com/en/education/manage-coursework-with-github-classroom) 
+Make sure to add your MongoDB URI in .env:
+
+env
+MONGO_URI=mongodb+srv://
+PORT=5000
+
+🌱 Seeding the Database
+bash
+# Run seed script
+node seed.js
+
+foodverse/
+├── client/                # React frontend
+│   ├── components/        # Reusable UI components
+│   ├── pages/             # Continent and recipe views
+│   ├── styles/            # Modular CSS
+│   └── App.js
+├── server/                # Express backend
+│   ├── models/            # Mongoose schemas
+│   ├── routes/            # API endpoints
+│   ├── controllers/       # Logic for recipes
+│   ├── seed.js            # Seed data script
+│   └── server.js
+├── .env
+└── README.md
