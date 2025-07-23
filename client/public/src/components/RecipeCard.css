@@ -1,0 +1,41 @@
+.card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  margin-bottom: 40px;
+}
+
+.recipe-card {
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  background-color: #FFF6EE;
+  transition: transform 0.2s ease;
+}
+
+.recipe-card:hover {
+  transform: scale(1.02);
+}
+
+.top-image img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-content h2 {
+  font-size: 1.5rem;
+  margin-bottom: 6px;
+  color: #A40865;
+}
+
+.tags {
+  font-style: italic;
+  font-size: 0.95rem;
+  color: #555;
+}

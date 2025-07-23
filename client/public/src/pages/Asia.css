@@ -1,0 +1,21 @@
+.continent-wrapper {
+  background-color: #fffaf0;
+  padding: 40px;
+  max-width: 900px;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.continent-wrapper h1 {
+  font-size: 2.5rem;
+  color: #E45811;
+  margin-bottom: 10px;
+}
+
+.continent-wrapper p {
+  font-size: 1.1rem;
+  color: #3A1900;
+  margin-bottom: 30px;
+}
