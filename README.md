@@ -3,7 +3,7 @@
 **Foodverse** is a global recipe-sharing platform built with the MERN stack. It celebrates culinary diversity by organizing recipes by continent, region, and theme — with a focus on accessibility, modular design, and user experience.
 
 
-🔗 Live site: [foodverseonline.netlify.app]
+🔗 Live site: https://foodverseonline.netlify.app/
 ---
 
 ## 🧰 Tech Stack
